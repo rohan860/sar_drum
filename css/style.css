@@ -59,9 +59,9 @@ footer{
     background-size: cover;
     
 }
-@media  screen and  (device-width: 375px) and (device-height: 812px){
- .title{
-  font-size: 4rem;
+@media (max-width:982px ){
+ h1{
+  font-size: 3.5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
@@ -69,16 +69,16 @@ footer{
   .drum{
   outline: none;
   border: 10px solid #404B69;
-  font-size: 12rem;
+  font-size: 6rem;
   font-family: 'Arvo',cursive;
-  line-height: 2;
+  line-height: 1;
   font-weight: 900;
   color: #DA0463;
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
-  width: 420px;
-  height: 445px;
+  width: 150px;
+  height: 155px;
   text-align: center;
   margin: 10px;
   background-color: white;
